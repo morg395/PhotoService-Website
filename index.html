@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотосервис - Название фотосервиса</title>
+    <script src="jQuery/jquery.min.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/adaptive.js"></script>
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+        <header class="header">
+            <div class="header__wrapper d-flex jcs-between ai-center">
+                <a href="#" class="header__logo"><img src="images/main/header/logo.svg" alt="Название компании"></a>
+                <button class="hamburger d-flex fd-col">
+                    <span class="hamburger__item hamburger__item1"></span>
+                    <span class="hamburger__item hamburger__item--mr hamburger__item2"></span>
+                    <span class="hamburger__item hamburger__item--mr hamburger__item3"></span>
+                </button>
+                <nav class="header__menu menu">
+                    <ul class="menu__list d-flex">
+                        <li class="menu__item"><a href="#" class="menu__link">О сервисе</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Документы</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="intro">
+            <div class="container">
+                <div class="intro__wrapper d-flex jcs-between ai-center">
+                    <div class="intro-content d-flex fd-col">
+                        <h1 class="intro__title">Поможем вам сделать <span class='accent'>качественное фото</span> для документов</h1>
+                        <h4 class="intro__desc">с учетом размерных требований</h4>
+                        <button class="intro__button btn-1" type="file">Загрузить фото</button>
+                    </div>
+                    <div class="intro-img d-flex jcf-end">
+                        <img src="images/main/art.png" alt="#" class='intro__image'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper d-flex fd-col">
+                <h2 class="about__title">Что такое Company name</h2>
+                <div class="about-content d-flex fd-col">
+                    <div class="about-content__steps d-flex jcs-between flex-w">
+                        <div class="about-content__item about-content__item1 threeSteps d-flex jcc ai-center">
+                            <h5 class="threeSteps__text">Три простых шага к идеальному фото для документов:</h5>
+                        </div>
+                        <div class="about-content__item about-content__item2 stepOne d-flex fd-col jcc">
+                            <h5 class="stepOne__title">Шаг 1</h5>
+                            <h6 class="stepOne__text">Сделайте снимок на телефон или фотоаппарат</h6>
+                            <img src="images/about/step1/step1.svg" alt="#" class="stepOne__image d-flex">
+                        </div>
+                        <div class="about-content__item about-content__item3 stepTwo d-flex fd-col jcc">
+                            <h5 class="stepTwo__title">Шаг 2</h5>
+                            <h6 class="stepTwo__text">Загрузите его для кадрирования и удаления фона</h6>
+                            <img src="images/about/step2/step2.jpg" alt="#" class="stepTwo__image">
+                        </div>
+                        <div class="about-content__item about-content__item4 stepThree d-flex fd-col jcc">
+                            <h5 class="stepThree__title">Шаг 3</h5>
+                            <h6 class="stepThree__text">Получите готовое фото, соответствующее всем правилам подачи</h6>
+                            <img src="images/about/step3/step3.jpg" alt="#" class="stepThree__image m-auto mt-auto">
+                        </div>
+                    </div>
+                </div>
+                <h6 class="about__desc">Вам не придется просить сотрудника фотостудии сделать Вам “ещё один” кадр — Вы сами выбираете удачное фото и только после этого загружаете его для обработки. После чего Вы получите фотографию в подходящем размере и формате в зависимости от типа документа</h6>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <div class="price__wrapper d-flex fd-row jcs-between ai-center">
+                <svg class='price__image' xmlns="http://www.w3.org/2000/svg" width="85" height="78" viewBox="0 0 85 78" fill="none">
+                    <path d="M61.8127 78C61.2177 78 60.6086 77.9256 60.0065 77.7662L5.2417 63.1002C1.48753 62.066 -0.7508 58.1773 0.233784 54.4231L7.14357 28.6681C7.39857 27.7225 8.36899 27.1735 9.31108 27.4143C10.2567 27.6658 10.8163 28.6398 10.5648 29.5818L3.65858 55.3298C3.16628 57.2069 4.29253 59.1618 6.17316 59.6825L60.9167 74.3414C62.7973 74.8373 64.7382 73.7181 65.2269 71.8481L67.993 61.5985C68.2479 60.6529 69.2184 60.0898 70.164 60.3483C71.1096 60.6033 71.6657 61.5773 71.4142 62.5193L68.6517 72.7548C67.8194 75.9068 64.9507 78 61.8127 78Z" fill="#051A47"/>
+                    <path d="M77.9166 56.75H21.25C17.3435 56.75 14.1666 53.5732 14.1666 49.6667V7.16671C14.1666 3.26025 17.3435 0.083374 21.25 0.083374H77.9166C81.8231 0.083374 85 3.26025 85 7.16671V49.6667C85 53.5732 81.8231 56.75 77.9166 56.75ZM21.25 3.62504C19.2985 3.62504 17.7083 5.21525 17.7083 7.16671V49.6667C17.7083 51.6182 19.2985 53.2084 21.25 53.2084H77.9166C79.8681 53.2084 81.4583 51.6182 81.4583 49.6667V7.16671C81.4583 5.21525 79.8681 3.62504 77.9166 3.62504H21.25Z" fill="#051A47"/>
+                    <path d="M31.875 24.875C27.9685 24.875 24.7916 21.6982 24.7916 17.7917C24.7916 13.8852 27.9685 10.7084 31.875 10.7084C35.7814 10.7084 38.9583 13.8852 38.9583 17.7917C38.9583 21.6982 35.7814 24.875 31.875 24.875ZM31.875 14.25C29.9235 14.25 28.3333 15.8402 28.3333 17.7917C28.3333 19.7432 29.9235 21.3334 31.875 21.3334C33.8264 21.3334 35.4166 19.7432 35.4166 17.7917C35.4166 15.8402 33.8264 14.25 31.875 14.25Z" fill="#051A47"/>
+                    <path d="M16.1854 52.9605C15.7321 52.9605 15.2787 52.7869 14.9317 52.4434C14.241 51.7527 14.241 50.63 14.9317 49.9394L31.659 33.2121C33.6635 31.2075 37.1662 31.2075 39.1708 33.2121L44.1504 38.1917L57.9346 21.6521C58.9369 20.4515 60.4102 19.7538 61.9792 19.7396H62.0181C63.5694 19.7396 65.0392 20.4125 66.0521 21.5919L84.575 43.2032C85.2125 43.9434 85.1275 45.0625 84.3837 45.7C83.6435 46.3375 82.5279 46.2561 81.8869 45.5088L63.364 23.8975C63.0204 23.5009 62.5458 23.2813 62.0181 23.2813C61.6498 23.2494 61.0017 23.5044 60.6581 23.9188L45.6308 41.9494C45.3121 42.3319 44.8481 42.5621 44.3487 42.5834C43.8458 42.6188 43.3677 42.4205 43.0171 42.0663L36.6669 35.7161C35.9975 35.0502 34.8323 35.0502 34.1629 35.7161L17.4356 52.4434C17.0921 52.7869 16.6387 52.9605 16.1854 52.9605Z" fill="#051A47"/>
+                </svg>
+                <h3 class="price__title">Фиксированная стоимость для любого вида фото</h3>
+                <h2 class="price__price">200 рублей</h2>
+            </div>
+        </div>
+    </section>
+    <section class="documents">
+        <div class="container">
+            <div class="documents__wrapper d-flex fd-col">
+                <h2 class="documents__title">Выберите документ</h2>
+                <div class="documents-content d-flex fd-col">
+                    <div class="documents-content__row documents-content__row1 d-flex jcs-between">
+                        <div class="documents-content__item documents-content__item1 documents-item documents-item1 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width">Паспорт РФ</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document1.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item2 documents-item documents-item2 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title">Загран. Паспорт</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document2.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item3 documents-item documents-item3 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title">Военный билет</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document3.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="documents-content__row documents-content__row2 d-flex jcs-between">
+                        <div class="documents-content__item documents-content__item4 documents-item documents-item4 d-flex">
+                            <div class="documents-item__txt documents-item__txt--width d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width3">Медицинская книжка</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document4.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item5 documents-item documents-item5 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width4">ВНЖ РФ</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document5.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item6 documents-item documents-item6 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width">Разрешение на работу в РФ</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document6.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="documents-content__row documents-content__row3 d-flex jcs-between">
+                        <div class="documents-content__item documents-content__item7 documents-item documents-item7 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title">Британская виза</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document7.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item8 documents-item documents-item8 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title">Израильская виза</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document8.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item9 documents-item documents-item9 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width">Виза ОАЭ</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document9.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="documents-content__row documents-content__row4 d-flex jcs-between">
+                        <div class="documents-content__item documents-content__item10 documents-item documents-item10 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width2">Виза Шенген</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document10.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item11 documents-item documents-item11 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width2">Виза США</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document11.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                        <div class="documents-content__item documents-content__item12 documents-item documents-item12 d-flex">
+                            <div class="documents-item__txt d-flex fd-col">
+                                <p class="documents-item__text">Фото на документ</p>
+                                <h5 class="documents-item__title documents-item__title--width">Гринкарта</h5>
+                                <button class="documents-item__button btn-2 mt-auto">Загрузить фото</button> 
+                            </div>
+                            <div class="documents-item__img">
+                                <img src="images/documents/document12.png" alt="" class="documents-item__image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="simple">
+        <div class="container">
+            <div class="simple__wrapper d-flex fd-row jcs-between ai-center">
+                <img src="images/simple/clock.svg" alt="#" class="simple__image">
+                <h3 class="simple__title">Три простых шага — и готовое фото у вас!</h3>
+                <button class="simple__button btn-1">Загрузить фото</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__wrapper d-flex fd-col">
+                <h2 class="contact__title">Напишите нам, если не нашли нужный документ</h2>
+                <form class="contact__form form d-flex fd-row flex-w jcs-between ai-center">
+                    <div class="form-name form-global d-flex fd-col">
+                        <label for="name" class="form-name__title">Имя</label>
+                        <input type='name' class="form__input form__input1 d-flex" placeholder="Укажите ваше имя">
+                    </div>
+                    <div class="form-email form-global d-flex fd-col">
+                       <label for="name" class="form-name__title">Почта</label>
+                        <input type='name' class="form__input form__input2 d-flex" placeholder="Укажите ваш e-mail">
+                    </div>
+                    <div class="form-document form-global d-flex fd-col">
+                       <label for="name" class="form-name__title">Документ</label>
+                        <input type='name' class="form__input form__input3 d-flex" placeholder="Какой документ вам нужен?">
+                    </div>
+                    <button type="submit" class="form__submit d-flex jcc ai-center">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper d-flex fd-row jcs-between ai-center">
+                <div class="footer-col footer-col1 d-flex fd-col">
+                    <a href="#" class="footer__logo"><img src="images/footer/logo.svg" alt="#"></a>
+                    <a href="#" class="footer__error">Сообщить об ошибке</a>
+                </div>
+                <div class="footer-col footer-col2 d-flex">
+                    <div class="footer__menu d-flex fd-row">
+                        <ul class="footer__list footer__list1 footer-list">
+                            <li class="footer__item"><p class="footer-list__title">О нас</p></li>
+                            <li class="footer__item"><a href="#" class="footer__link">О сервисе</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Документы</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Блог</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list2 footer-list">
+                            <li class="footer__item"><p class="footer-list__title">Контакты</p></li>
+                            <li class="footer__item"><a href="#" class="footer__link">E-mail</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list3 footer-list">
+                            <li class="footer__item"><p class="footer-list__title">Юридические документы</p></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Договор оферты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
